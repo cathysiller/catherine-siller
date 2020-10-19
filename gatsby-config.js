@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-theme-blog`,
       options: {},
@@ -7,8 +8,8 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
+    title: `Catherine Siller Blog`,
+    author: `Catherine Siller`,
     description: `My site description...`,
     social: [
       {
@@ -17,7 +18,7 @@ module.exports = {
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/cathysiller`,
       },
     ],
   },
