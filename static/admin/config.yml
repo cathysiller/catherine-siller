@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: cathysiller/ catherine-siller
+  repo: cathysiller/catherine-siller
 
 media_folder: static/assets
 public_folder: /assets
